@@ -38,10 +38,7 @@ class AuthController extends Controller
         ], 201);
     }
 
-    /**
-     * Realiza o login do usuário com e-mail e senha.
-     * Retorna token de autenticação em caso de sucesso.
-     */
+   
     public function login(Request $request)
     {
         // Validação dos campos obrigatórios
